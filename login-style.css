@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-color: #f4f4f4;
+    background: url("C:/Users/abd/Desktop/html/image-from-rawpixel-id-8306857-jpeg.jpg") center / cover no-repeat;
+}
+
+.container 
+{
+    display: flex;
+   
+}
+
+.form-container {
+     padding: 20px ;
+     margin-top: 10px ;
+    border: 1px solid #f5fcf2;
+    border-radius: 50px;
+    background-color: hwb(0 97% 1%);
+    background: url(C:/Users/abd/Desktop/html/image-from-rawpixel-id-8306857-jpeg.jpg);
+  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+label {
+    margin-top: 8px;
+    border-radius: 38px ;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px ;
+}
+
+button {
+    padding: 10px;
+    background-color: #0c0c0c;
+    color: #e0cccc;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 38px;
+}
+
+button:hover {
+    background-color: #090a0a;
+}
+
+
+input[type="email"] {
+    
+    border: 1px solid #383333;
+    border-radius: 38px ;
+}
+
+
+h2 {
+    color: #333;
+}
+
+input[type="password"]{
+    border: 1px solid #383333;
+     border-radius: 38px ;
+}
+
+input[type="text"]{
+    border: 1px solid #383333;
+     border-radius: 38px ;
+}
+
+.abd{
+      margin-top: 2px;
+       margin-bottom: 8px ;
+      margin-left: 27px;
+    color: #420466;
+}
+
+
+  
+
+
+
+
+
+
+
+ 
+     
+
+
+  
