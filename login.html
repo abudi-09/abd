@@ -3,64 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login  and sign up </title>
     <link rel="stylesheet" href="css/login-style.css">
+    <title>Login</title>
 </head>
 <body>
-      <div  class = "from-container">
+    <div class="container">
+        <div class="form-container">
+            <form id="loginForm" >
+                <h2>Login</h2>
+                <label for="loginEmail">Email:</label>
+                <input type="email" id="loginEmail" name="loginEmail" required>
 
-           <div calss = "from container">
-                <form action id ="from login">
-                  <h2>Login</h2>
-                    
-                    <label for="username ">usrename</label>
-                    <input type="text"  id = username><br><br>
-                    <label for="login email"> .Email</label>
-                    <input type="email" id = "loginemail"  text=" loginemail" required ><br> <br>
-                    <label for="password">pasword</label>
-                    <input type="password"><br><br>
-                    <label for="password">cspasword</label>
-                    <input type="password"><br><br>
-                    <button type="submit">Login</button>
-                    <input type="reset"><br><br><br>
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="loginPassword" required>
+                <a href="loginForm" class ="abd">Forget password? </a> 
+                <button type="submit">Login</button>
+            </form>
 
-
-                </form>
-
-
-
-
-
-
-           </div>
-         <div  class ="from container">
-    <form action id = "from signup">   
-        <label for="fname" >Fristname</label>
-        <input type="text"  id="fristname" required><br> <br>
-        <label for="lname" >Lastname</label>
-        <input type="text"  ld="lastname" required><br> <br>
-        <label for="login email"> . Email</label>
-        <input type="email" id = "loginemail"  text=" loginemail" required ><br> <br>
-        <label for="password">pasword</label>
-        <input type="password"><br><br>
-        <label for="password">cspasword</label>
-        <input type="password"><br><br>
-        <button type="submit">Rigister</button>
-
-
-
-
-
-
-
-    </form>
-
-         </div>
-
-
-
-
-
-      </div>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
+    </div>
 </body>
 </html>
